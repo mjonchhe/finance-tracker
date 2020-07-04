@@ -11,6 +11,7 @@ gem 'rails', '~> 6.0.0'
 
 # Use sqlite3 as the database for Active Record
 gem 'devise'
+gem 'webpacker'
 gem 'twitter-bootstrap-rails'
 gem 'jquery-rails'
 gem 'devise-bootstrap-views'
@@ -62,4 +63,4 @@ group :production do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+# gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
